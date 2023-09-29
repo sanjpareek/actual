@@ -1,11 +1,11 @@
 ---
 id: b9de7vyd
-title: How to create a filter query
+title: How to create a query to filter
 file_version: 1.1.3
 app_version: 1.18.2
 ---
 
-This code snippet defines a `filter` function that adds a new filter expression to the state of a `Query`<swm-token data-swm-token=":packages/api/app/query.js:1:2:2:`class Query {`"/> object.
+This code snippet defines a `filter` function that adds a new filter expression to the state of a `Query`<swm-token data-swm-token=":packages/api/app/query.js:1:2:2:`class Query {`"/> object. The `filterExpressions`<swm-token data-swm-token=":packages/api/app/query.js:21:1:1:`      filterExpressions: [...this.state.filterExpressions, expr],`"/> is an array of `expression`<swm-token data-swm-token=":packages/node-libofx/OpenSP-1.5.2/intl/plural-exp.h:34:2:2:`struct expression`"/>
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 packages/api/app/query.js
 ```javascript
