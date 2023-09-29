@@ -5,7 +5,7 @@ file_version: 1.1.3
 app_version: 1.18.2
 ---
 
-This code snippet defines a `filter` function that adds a new filter expression to the state of a `Query` object.
+This code snippet defines a `filter` function that adds a new filter expression to the state of a `Query`<swm-token data-swm-token=":packages/api/app/query.js:1:2:2:`class Query {`"/> object.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 packages/api/app/query.js
 ```javascript
